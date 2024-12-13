@@ -262,21 +262,29 @@ T_0^1 = \begin{bmatrix} cos(\theta_1) & -sin(\theta_1) & 0 & -L_1cos(\theta_1) \
 ```
 
 สมการที่ 11
-``` math
-T_1^2 = \begin{bmatrix} cos(\theta_1) & -sin(\theta_1) & 0 & -L_1cos(\theta_1) \\ sin(\theta_1) & cos(\theta_1) & 0 & -L_1sin(\theta_1) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix} \\
+
+```math
+T_1^2 = \begin{bmatrix} cos(\theta_1) & -sin(\theta_1) & 0 & -L_1cos(\theta_1) \\ sin(\theta_1) & cos(\theta_1) & 0 & -L_1sin(\theta_1) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix}
 ```
+
 สมการที่ 12
-``` math
-T_2^3 = \begin{bmatrix} cos(\theta_2) & -sin(\theta_2) & 0 & L_2cos(\theta_2) \\ sin(\theta_2) & cos(\theta_2) & 0 & L_2sin(\theta_2) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix} \\
+
+```math
+T_2^3 = \begin{bmatrix} cos(\theta_2) & -sin(\theta_2) & 0 & L_2cos(\theta_2) \\ sin(\theta_2) & cos(\theta_2) & 0 & L_2sin(\theta_2) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix}
 ```
+
 สมการที่ 13
-``` math
-T_2^3 = \begin{bmatrix} cos(\theta_3) & -sin(\theta_3) & 0 & L_3cos(\theta_3) \\ sin(\theta_3) & cos(\theta_3) & 0 & L_3sin(\theta_3) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix} \\
+
+```math
+T_2^3 = \begin{bmatrix} cos(\theta_3) & -sin(\theta_3) & 0 & L_3cos(\theta_3) \\ sin(\theta_3) & cos(\theta_3) & 0 & L_3sin(\theta_3) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix}
 ```
+
 สมการที่ 14
-``` math
-T_0^4 = T_0^1T_1^2T_2^3T_3^4 = \begin{bmatrix} m & m & m & m \\ m & m & m & m\\ m & m & m & m \\ m & m & m & m\end{bmatrix} \\
+
+```math
+T_0^4 = T_0^1T_1^2T_2^3T_3^4 = \begin{bmatrix} m & m & m & m \\ m & m & m & m\\ m & m & m & m \\ m & m & m & m\end{bmatrix}
 ```
+
 ตารางแสดง Forward Kinematics ของส่วนขา
 
 <div align="center">
