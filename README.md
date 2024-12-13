@@ -2,6 +2,37 @@
 โครงการนี้จัดทำขึ้นเพื่อศึกษาและจำลองกริยาและการเคลื่อนไหวของหุ่นยนต์สี่ขา โดยมี Input คือท่าทางหรือความเร็วในการเดินของหุ่น จากนั้นวิเคราะห์ในส่วนของ Forward Kinematics, Inverse Kinematics และ Jacobian เพื่อทำการหา Configuration ของ Joint บนขา และ Visualize ลักษณะของหุ่นออกมา
 ## Table Of Contents
 
+- Introduction
+    - จุดประสงค์โครงการ
+    - ขอบเขต
+        - ขอบเขตการศึกษา
+        - การ Visualize โดยใช้ Unity
+- Literature Review
+    - Kinematic analysis and trajectory of a Dog-like robot
+        - 1. Dog-like Robot Structure
+        - 2. Kinematics
+        - 3. Four-legged walking gait 
+    - Design, Development and Control of a Quadruped Robot (Scott Fredriksson, 2021)
+        - 1. Mechanical Design of a Quadruped Robot
+        - 2.  Quadruped Robot Control
+            - 2.1 Kinematic Model
+            - 2.2 Inverse Kinematic Model of a Quadruped Robot
+            - 2.3 Walking
+    - Inverse Kinematic Analysis Of A Quadruped Robot 9 (Muhammed Arif Sen, Veli Bakircioglu, Mete Kalyoncu, 2017)
+        - Kinematics Analysis
+        - System Diagram / System Overview (Function and Argument)
+- Calculation
+    - Forward Kinematics
+    - Inverse Kinematics
+    - Control speed
+- Posture
+    - Squat
+    - Tilted
+    - Walk
+- Installation guide
+    - Installation
+    - How to use
+
 
 ## Introduction 
 ### จุดประสงค์โครงการ
@@ -26,7 +57,7 @@
         -	มุม Row, Pitch ของหุ่น
         -	ความสูงของหุ่นจากพื้น
 
-####	การ Visualize โดยใช้ Unity
+#### การ Visualize โดยใช้ Unity
 
         -	Visualization เป็นภาพ 3 มิติ
         -	ให้หุ่นยนต์เคลื่อนที่ไปมาในพื้นที่ 3 มิติได้
@@ -58,6 +89,7 @@
   <img src="Pic/JointHomePic.png" alt="JointHomePic" />
 </div>
     จากรูปด้านบนหุ่นยนต์มีค่าเริ่มต้น Joint Configuration ตามตารางด้านล่าง โดยที่ FR คือ ขาขวาด้านหน้า, FL คือ ขาซ้ายด้านหน้า, RR คือ ขาขวาด้านหลัง, RL คือขาซ้ายด้านหลัง, $θ_1$ คือ ข้อต่อหัวไหล่, $θ_2$ คือ ข้อต่อข้อพับและ $θ_3$ คือ ข้อต่อส่วนเข่า
+
 #### 2. Kinematics
 
     ใน Forward Kinematics ขาทุกขามีรูปแบบเหมือนกันซึ่งสามารถเคลื่อนที่และเคลื่อนไหวได้โดยควบคุมข้อต่อทั้งหมดสามจุด แต่ในสมการที่เหมือนกันนั้น ตำแหน่งในการติดตั้งของขาจะต่างกันด้านซ้ายและส่วนของด้านขวาจะ Mirror จากด้านซ้าย กำหนดให้
@@ -535,9 +567,9 @@ https://github.com/user-attachments/assets/5f972631-97bd-4562-ae65-844a697b6d24
 
 
 
-## การติดตั้งและใช้งาน
+## Installation guide
 
-### การติดตั้ง
+### Installation
     - ติดตั้ง Unity (แนะนำ version 2021 ขึ้นไป)
     - Dowload repository นี้ ลงมาบนเครื่อง และแตกไฟล์ให้เรียบร้อย
     - เปิด Unity hub และกด Add
@@ -549,7 +581,7 @@ https://github.com/user-attachments/assets/5f972631-97bd-4562-ae65-844a697b6d24
     - จากนั้นกด Add project from disk
     - เลือก folder ที่โหลดมา
 
-### การใช้งาน
+### How to use
 
     - กดปุ่ม play เพื่อเรื่ม simulation
 
