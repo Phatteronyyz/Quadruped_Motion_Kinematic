@@ -381,5 +381,7 @@ sin(\theta_2) = \gamma\sqrt{1-cos^2(\theta_2)} \\[1em]
 
 <video src="Videos/Squat.mp4" width="1100" height="594" controls></video>
 
+![four_leg_move](Videos/Squat.mp4)
+
 
 ![four_leg_move](Pic/four_leg_move.png)
