@@ -254,10 +254,18 @@ Forward kinematics ของหุ่นยนต์เกี่ยวข้อ�
 </div>
 
 ในการแปลง Matrix แต่ละตัว $T_0^1$, $T_1^2$, $T_2^3$, $T_3^4$ ในสมการที่ 10, 11, 12, 13 และ Forward Kinematics Matrix $T_0^4$ ในสมการที่ 14 Forward Kinematics ของส่วนขาในรูปที่ 13
+
+สมการที่ 9
+``` math
+T_(rightback) = T_M * \begin{bmatrix} cos(\frac{\pi}{2}) & 0 & sin(\frac{\pi}{2}) & \frac{-L}{2} \\ 0 & 1 & 0 & 0 \\ -sin(\frac{\pi}{2}) & 0 & cos(\frac{\pi}{2}) & \frac{-W}{2} \\ 0 & 0 & 0 & 1\end{bmatrix}
+```
+
 สมการที่ 10
+
 ``` math
 T_0^1 = \begin{bmatrix} cos(\theta_1) & -sin(\theta_1) & 0 & -L_1cos(\theta_1) \\ sin(\theta_1) & cos(\theta_1) & 0 & -L_1sin(\theta_1) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix} \\
 ```
+
 สมการที่ 11
 ``` math
 T_1^2 = \begin{bmatrix} cos(\theta_1) & -sin(\theta_1) & 0 & -L_1cos(\theta_1) \\ sin(\theta_1) & cos(\theta_1) & 0 & -L_1sin(\theta_1) \\ 0 & 0 & 1 & 0 \\ 0 & 0 & 0 & 1\end{bmatrix} \\
