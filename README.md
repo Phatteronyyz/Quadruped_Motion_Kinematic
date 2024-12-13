@@ -477,9 +477,9 @@ https://github.com/user-attachments/assets/5ab2711f-20b0-4a24-ac05-89977fdf4ed1
 
 เราสามารถหา configuration ของแต่ละ joint ได้จากระยะ x ซึ่งหาได้จาก L/2 * tan(theta) โดย L คือความกว้างและความยาวของหุ่นในแต่ละแกนที่สนใจ และนำค่า x ไปใส่ในสมการ inverse kinematic 
 
-<p align="center">
-  <video src="Videos/tilted.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/c83480ef-3360-41ee-abb2-df4115ba223e
+
 
 ### Walk
 เราได้ทำการศึกษาท่าทางในการเดินของสัตว์สี่ขา และได้สนใจใน ท่า crawl(walk) และ ท่า trot
@@ -495,9 +495,10 @@ https://github.com/user-attachments/assets/5ab2711f-20b0-4a24-ac05-89977fdf4ed1
 
 โดยในท่า crawl สัตว์จะใช้ขาทีละข้างในการยก และอีกสามขาที่ติดอยู่กับพื้นจะใช้ในการทรงตัวและผลักให้ตัวสัตว์มีการเคลื่อนตัวไปข้างหน้า ท่านี้มักจะใช้ในการเดินในความเร็วต่ำ หรือคลาน
 
-<p align="center">
-  <video src="Videos/Crawl_demo.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/784f38ae-f8d6-43a2-ad59-57c4bbc51498
+
+
 
 สังเกตจากวิดีโอหุ่นจะยกขาทีละข้างและเมื่อขาข้างที่ยกสัมผัสพื้นแล้ว ขาข้างถัดไปจึงยกต่อ
 
@@ -507,17 +508,19 @@ https://github.com/user-attachments/assets/5ab2711f-20b0-4a24-ac05-89977fdf4ed1
 
 ลักษณะการเคลื่อนที่ของเท้าในท่า crawl ในหนึ่งรอบการเคลื่อนที่จะแบ่งเป็นสี่ช่วง เนื่องจากสัตว์จะยกขาทีละข้างในจังหวะยก(สีน้ำเงิน)จะใช้เวลาทั้งหมด 1/4 ส่วน และจังหวะเท้าอยู่กับพื้นจะใช้เวลา 3/4 ส่วน แต่ในที่นี้จังหวะที่เท้าติดอยู่กับพื้นจะถูกแบ่งออกเป็นอีกสามส่วนเพื่อให้เวลาเริ่มเคลื่อนที่เท้าแต่ละข้างจะถูกกำหนดให้เริ่มใน phase ที่ต่างกัน ดังภาพทางด้านขวา จะเห็นว่าเท้าด้านหน้าขวาจะเริ่มใน phase ที่ 1 เท้าหลังซ้ายจะเริ่มใน phase ที่ 2 เนื่องจากจะเป็นเท้าที่จะถูกยกเป็นข้างถัดไป และวนไปจนครบหนึ่งรอบตามลูกศร
 
-<p align="center">
-  <video src="Videos/crawlwalk.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/797f6a0e-81cb-485a-af0e-9abc17c2ca67
+
+
 
 #### Trot
 
 ในท่า Trot สัตว์จะมีการยกเท้าพร้อมกันสองเท้า (เท้าหน้าขวา - เท้าหลังซ้าย และ เท้าหน้าซ้าย - เท้าหลังขวา) สลับกันเป็นชุดๆ มักใช้ในการเดินที่มีความเร็วมากกว่าท่า Crawl
 
-<p align="center">
-  <video src="Videos/Trot_demo.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/f420b088-bc89-4c11-a739-c14beb0ae7b7
+
+
 
 สังเกตว่าหุ่นยนต์จะยกขาพร้อมกันสองข้างเป็นชุดๆสลับกันไป
 
@@ -527,9 +530,10 @@ https://github.com/user-attachments/assets/5ab2711f-20b0-4a24-ac05-89977fdf4ed1
 
 ในท่า Trot การเคลื่อนที่ของเท้าจะถูกแบ่งเป็นสองช่วงจังหวะยกและจังหวะที่เท้าติดกับพื้น ช่วงละ 1/2 duration เท่าๆกัน และขณะเริ่มต้นการเดินขาแต่ละชุดก็จะเริ่มที่ phase ต่างกัน
 
-<p align="center">
-  <video src="Videos/trotwl.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/5f972631-97bd-4562-ae65-844a697b6d24
+
+
 
 ## การติดตั้งและใช้งาน
 
