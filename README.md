@@ -282,7 +282,7 @@ T_2^3 = \begin{bmatrix} cos(\theta_3) & -sin(\theta_3) & 0 & L_3cos(\theta_3) \\
 สมการที่ 14
 
 ```math
-T_0^4 = T_0^1T_1^2T_2^3T_3^4 = \begin{bmatrix} m & m & m & m \\ m & m & m & m\\ m & m & m & m \\ m & m & m & m\end{bmatrix}
+T_0^4 = T_0^1T_1^2T_2^3T_3^4 = \begin{bmatrix} m_{11} & m_{12} & m_{13} & m_{14} \\ m_{21} & m_{22} & m_{23} & m_{24}\\  m_{31} & m_{32} & m_{33} & m_{34} \\  m_{41} & m_{42} & m_{43} & m_{44}\end{bmatrix}
 ```
 
 ตารางแสดง Forward Kinematics ของส่วนขา
@@ -477,7 +477,7 @@ sin(\theta_2) = \gamma\sqrt{1-cos^2(\theta_2)} \\[1em]
 เราสามารถหา configuration ของแต่ละ joint ได้จากระยะ x ซึ่งหาได้จาก L/2 * tan(theta) โดย L คือความกว้างและความยาวของหุ่นในแต่ละแกนที่สนใจ และนำค่า x ไปใส่ในสมการ inverse kinematic 
 
 <p align="center">
-  <video src="Videos/tilted.mp4" width="1100px"></video>
+  <video src="Videos/tilted.mp4" width="1100px" controls></video>
 </p>
 
 ### Walk
