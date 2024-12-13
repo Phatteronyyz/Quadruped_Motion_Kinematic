@@ -29,9 +29,11 @@
     - Squat
     - Tilted
     - Walk
+- Summary
 - Installation guide
     - Installation
     - How to use
+- References
 
 
 ## Introduction 
@@ -565,6 +567,8 @@ https://github.com/user-attachments/assets/f420b088-bc89-4c11-a739-c14beb0ae7b7
 
 https://github.com/user-attachments/assets/5f972631-97bd-4562-ae65-844a697b6d24
 
+## Summary
+    คณะผู้จัดทำสามารถจำลองท่าทางการเคลื่อนไหวของสัตว์สี่ขาโดยใช้ความรู้ในวิชา Kinematic ได้ โดยใช้ความรู้ในหัวข้อ Inverse Kinematics, Forward Kinematics, DH Parameter, Pose Kinematics Chain, Jacobian, Task Space. โดยสามารถจำลองท่าทาง ย่อ เอียงตัว และเดิน(ท่า Crawl และ Trot) ได้ ซึ่งเป็นไปตามวัตถุประสงค์ของการศึกษา แต่ทั้งนี้เราได้พบปัญหาในส่วนของการเอียงตัว ผู้จัดทำมีความตั้งใจในการจะทำให้หุ่นสามารถเอียงตัวได้สองแกนพร้อมกันแต่หลังจากลองนำ Rotation matrix ที่ได้จากการคำนวณการเอียงทั้งสองแกน ไปจำลองใน Unity พบว่าเกิดปัญหาของแกนอ้างอิง หลังจากพยายามแก้ไขแล้วไม่สามารถแก้ไขได้จึงจำเป็นที่จะต้องแยกการเอียงตัวออกมาเป็นทีละแกนแทน
 
 
 ## Installation guide
@@ -603,3 +607,20 @@ https://github.com/user-attachments/assets/5f972631-97bd-4562-ae65-844a697b6d24
     - Input V สำหรับ input ความเร็วของหุ่น (ไม่ควรเกิน 2.64 เนื่องจากข้อจำกัดของความยาวขาหุ่น)
     - Drop-down ใช้สำหรับเลือกท่าเดิน Crawl และ Trot
     - Check box สำหรับเริ่มจำลองการเดิน
+
+## References
+
+- [1] Phunopas, A., & Suwichien, N. (2017, December). Kinematic analysis and trajectory of a dog-like robot. TSME.
+
+    - https://www.tsme.org/index/phocadownload/ICoME2017/kinematic%20analysis%20and%20trajectory%20of%20a%20dog-like%20robot.pdf 
+
+- [2] Kalyoncu, M. (2017, September). Inverse kinematic analysis of a quadruped robot. 
+    - https://www.researchgate.net/publication/322594373_Inverse_Kinematic_Analysis_of_a_Quadruped_Robot
+- [3] Şen, M. A., Bakırcıoğlu, V., & Kalyoncu, M. (2017, November). Design and simulation impedance controller for trajectory control with obstacle of quadruped robot’s leg. ResearchGate.
+    - https://www.researchgate.net/publication/321342597_Design_and_Simulation_Impedance_Controller_for_Trajectory_Control_with_Obstacle_of_Quadruped_Robot%27s_Leg
+- [4] Fredriksson, S. (2021). Design, development and control of a quadruped robot. Luleå University of Technology. 
+    - https://ltu.diva-portal.org/smash/get/diva2:1588775/FULLTEXT01.pdf
+- [5] Robot Mania. (2021, December). Quadruped robot basics [Video]. YouTube. 
+    - https://www.youtube.com/watch?v=O_2swSMecB4
+- [6] Hiwonder. (2022, May). Hiwonder PuppyPi quadruped robot with AI vision powered by Raspberry Pi ROS open-source robot dog [Video]. YouTube. 
+    - https://www.youtube.com/watch?v=OKaEbnmZ0PU
