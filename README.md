@@ -466,7 +466,7 @@ sin(\theta_2) = \gamma\sqrt{1-cos^2(\theta_2)} \\[1em]
 เราสามารถหา configuration ของแต่ละ joint ได้จากระยะ x ซึ่งหาได้จาก L/2 * tan(theta) โดย L คือความกว้างและความยาวของหุ่นในแต่ละแกนที่สนใจ และนำค่า x ไปใส่ในสมการ inverse kinematic 
 
 <p align="center">
-  <video src="Videos/tilted.mp4" width="1100px" controls></video>
+  <video src="Videos/tilted.mp4" width="1100px"></video>
 </p>
 
 ### Walk
