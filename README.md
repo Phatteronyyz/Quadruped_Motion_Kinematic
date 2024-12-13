@@ -462,9 +462,10 @@ sin(\theta_2) = \gamma\sqrt{1-cos^2(\theta_2)} \\[1em]
 
 จากรูปเราสามารถคำนวณความสูงของหุ่นจากพื้น ได้จากการคำนวณระยะห่างระหว่างเท้า (สีม่วง) และหัวไหล่ (สีฟ้า) และบวกรัศมีของเท้าหุ่น (ในที่นี้คือ 0.5) เนื่องจากเราอ้างอิงแกนของแต่ละขาจากบริเวณหัวไหล่ ดังนั้นเราจะได้ configuration ของแต่ละ joint ของขาจากการนำระยะ x ไปใส่ในสมการ inverse kinematic 
 
-<p align="center">
-  <video src="Videos/Squat.mp4" width="1100px" controls></video>
-</p>
+
+https://github.com/user-attachments/assets/5ab2711f-20b0-4a24-ac05-89977fdf4ed1
+
+
 
 ### Tilted
 
